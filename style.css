@@ -2,7 +2,11 @@ body{background-color: rgba(0, 238, 255, 0.418);
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      color: rgb(255, 0, 0);}
 
-h1{color: rgb(255, 0, 0)}
+h1{color: rgb(255, 81, 0)}
+
+h1:hover {
+    color: rgb(255, 0, 0)
+}
 
 a {
      color: rgb(0, 110, 255);
@@ -29,4 +33,23 @@ ul li::before {
 
 a::before {
     content: "🌌 ";
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: rgb(162, 0, 255);
+}
+
+p:hover {
+    color: rgb(25, 0, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p::after {
+    content: "🛰️☄️🚀🌌 ";
 }
