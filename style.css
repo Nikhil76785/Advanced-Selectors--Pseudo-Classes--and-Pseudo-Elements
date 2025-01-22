@@ -1,0 +1,32 @@
+body{background-color: rgba(0, 238, 255, 0.418);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: rgb(255, 0, 0);}
+
+h1{color: rgb(255, 0, 0)}
+
+a {
+     color: rgb(0, 110, 255);
+}
+
+a:hover {
+    color: rgb(89, 0, 255);
+}
+
+ul > li{font-weight: 900;
+        color: rgb(255, 136, 0);}
+
+p{color: rgb(255, 0, 221); 
+  padding: 10px;
+  border-radius: 5px;}
+
+ul li:hover{color: crimson;}
+
+ul li:nth-child(5){color:black}
+
+ul li::before {
+    content: "🚀 ";
+}
+
+a::before {
+    content: "🌌 ";
+}
